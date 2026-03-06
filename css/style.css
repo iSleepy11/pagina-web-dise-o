@@ -600,6 +600,27 @@ a {
     font-weight: 500;
     text-decoration: none;
     color: #c0392b; }
+  .footer-section .footer-logo-wrap .footer-logo-img {
+    max-width: 150px; }
+  .footer-section .footer-payments {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px; }
+    .footer-section .footer-payments img {
+      height: 30px;
+      max-width: 100%;
+      -o-object-fit: contain;
+      object-fit: contain; }
+    .footer-section .footer-payments img[alt*="Banco"] {
+      height: 35px;
+      width: 35px; }
+  .footer-section .footer-payment-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-bottom: 8px; }
   .footer-section .custom-social li {
     margin: 2px;
     display: inline-block; }
